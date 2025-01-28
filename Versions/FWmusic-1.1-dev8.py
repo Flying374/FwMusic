@@ -1,4 +1,3 @@
-#  Author:Flying374
 import time
 import tqdm
 import random
@@ -121,9 +120,9 @@ def download_from_id(artist_id, artist_name, id_list, list_name):
         filename = filename + ".mp3"
         connection_pool = urllib3.PoolManager()
         resp = connection_pool.request('GET', url)
-        #f = open('music/'+artist_name+'/'+name_format(filename), 'wb')
-        #f.write(resp.data)
-        #f.close()
+        f = open('music/'+artist_name+'/'+name_format(filename), 'wb')
+        f.write(resp.data)
+        f.close()
         resp.release_conn()
 
     os.makedirs('music/'+artist_name, exist_ok=True)
