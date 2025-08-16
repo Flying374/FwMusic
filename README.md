@@ -6,7 +6,7 @@
  
 A simple program to download music from netease music.  
 This product is for learning purposes only.  
-I am not responsible for any consequences resulting from the use of this product. 
+I am not responsible for any consequences resulting from the use of this product.  
 WARNING : FwMusic 1.x is VALID !(Except 1.3-dev1)
 
 
