@@ -1,7 +1,7 @@
 # FwMusic
 一个简单的程序，可以从网易云音乐中下载歌曲。  
 仅供学习使用。                   
-我（作者）不对使用本程序造成的一切后果负责。 
+我（作者）不对使用本程序造成的一切后果负责。      
 警告：FwMusic 1.x 版本以全部失效（除1.3-dev1） 
  
 A simple program to download music from netease music.  
