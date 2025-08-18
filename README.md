@@ -13,5 +13,5 @@ WARNING : FwMusic 1.x is VALID !(Except 1.3-dev1, 1.2.3)
 
 ==========================================================================    
 最新版: 1.2.3(Api:10203_emf)   
-Latest Version: 1.2.3(Api:10203_emf)
+Latest Version: 1.2.3(Api:10203_emf)   
 提示：作者已放弃了对FwMusic 1.x的更新，请等待FwMusic 2。
