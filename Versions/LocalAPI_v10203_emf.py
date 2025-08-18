@@ -1,4 +1,4 @@
-#  LocalAPI v.10202
+#  LocalAPI v.10203
 #  Author: Flying374
 # How to prove that I am existing?
 import time
@@ -96,6 +96,7 @@ class Artist:
                         f.append(j['name'])
                 #  print(f)
                 g = max(f, key=f.count)
+                progress.add_value(30, 0.01)
                 artist_songs = []
                 if len(name_list) == len(id_list):
                     for i in range(len(name_list)):
@@ -103,7 +104,7 @@ class Artist:
                 self.artist_id = artist_id
                 self.artist_name = g
                 self.artist_songs = artist_songs
-                progress.add_value(30, 0.01)
+                progress.add_value(40, 0.01)
 
         except Exception:
             # print('ErrG1')
